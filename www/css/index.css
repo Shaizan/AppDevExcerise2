@@ -14,12 +14,13 @@ body{
 }
 
 .location{
+   font-family: 'Acme', sans-serif;
     border-style: solid;
     border-color: azure;
     border-width: thick;
      background-image: linear-gradient(to right, blue , white)
    
-       
+
 }
 
 .current_conditions{
@@ -31,10 +32,9 @@ body{
     background:lightblue; 
     display:grid;
     grid-template-columns: 1fr 1fr;
-    
-
-    
+    font-family: 'Lobster', cursive; 
 }
+
 
 
 
@@ -42,20 +42,22 @@ body{
     height:10vh;
     background:lightblue;
     padding-top: 2.5vh;
+    font-family: 'Indie Flower', cursive;
 }
 
 .weather_details{
     height:55vh;
     padding-top: 5vh;
     padding:1vh 0;
-     border-style:solid;
-        border-color: azure;
+    border-style:solid;
+    border-color: azure;
     border-width: thick;
     background:lightblue;
+    font-family: 'Lobster', cursive;
     display:grid;
     grid-template-columns: 1fr 1fr;
-  	 background-image: linear-gradient(to bottom, blue , lightblue)       
-         
+    background-image: linear-gradient(to bottom, blue , lightblue)       
+    
        
     
 }
