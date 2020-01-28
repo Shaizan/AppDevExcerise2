@@ -23,33 +23,43 @@ body{
 }
 
 .current_conditions{
-    height:20vh;
+    height:25vh;
     padding:5vh 0;
+    border-style: solid;
+    border-color: azure;
+    border-width: thick;
     background:lightblue; 
     display:grid;
     grid-template-columns: 1fr 1fr;
     
-    border-style: solid;
-    border-color: azure;
-    border-width: thick;
-}
 
-.temp{
-    background: white;
+    
 }
 
 
 
 .weath_descrip{
-    height:5vh;
-    background:yellow;
-    border:3px solid lightblue;
+    height:10vh;
+    background:lightblue;
+    padding-top: 2.5vh;
 }
 
 .weather_details{
-    height:75vh;
-    padding:15vh 0;
-    background:grey;
+    height:55vh;
+    padding-top: 5vh;
+    padding:1vh 0;
+     border-style:solid;
+        border-color: azure;
+    border-width: thick;
+    background:lightblue;
     display:grid;
     grid-template-columns: 1fr 1fr;
+  	 background-image: linear-gradient(to bottom, blue , lightblue)       
+         
+       
+    
+}
+
+.boxes{
+    padding-top: 10vh
 }
