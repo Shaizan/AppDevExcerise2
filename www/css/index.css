@@ -1,0 +1,55 @@
+/*Treat the icons like fonts  font-size, color etc...*/
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin:0;
+}
+
+.app{
+    text-align: center;
+}
+
+.location{
+    border-style: solid;
+    border-color: azure;
+    border-width: thick;
+     background-image: linear-gradient(to right, blue , white)
+   
+       
+}
+
+.current_conditions{
+    height:20vh;
+    padding:5vh 0;
+    background:lightblue; 
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    
+    border-style: solid;
+    border-color: azure;
+    border-width: thick;
+}
+
+.temp{
+    background: white;
+}
+
+
+
+.weath_descrip{
+    height:5vh;
+    background:yellow;
+    border:3px solid lightblue;
+}
+
+.weather_details{
+    height:75vh;
+    padding:15vh 0;
+    background:grey;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
